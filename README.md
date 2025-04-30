@@ -1,33 +1,3 @@
-# CipherSherlock Git Repository
-
-Here are the files needed to create a Git repository for your tool CipherSherlock.
-
-```
-CipherSherlock/            # root folder
-├── .gitignore            # files to ignore
-├── README.md             # project overview and usage
-├── requirements.txt      # Python dependencies
-└── CipherSherlock.py     # main script
-```
-
----
-
-## .gitignore
-
-```
-__pycache__/
-*.pyc
-.env
-venv/
-*.log
-```
-
-## requirements.txt
-
-```
-tqdm==4.65.0
-```
-
 ## README.md
 
 ```markdown
